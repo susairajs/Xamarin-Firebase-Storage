@@ -30,21 +30,29 @@
     <AppXManifest Include="C:\Users\susai\Desktop\VisualStudio Source\XamarinFirebase\XamarinFirebase\XamarinFirebase.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-01-08T17:42:57.492</Modified>
+      <Modified>2019-01-25T17:05:02.021</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\susai\Desktop\VisualStudio Source\XamarinFirebase\XamarinFirebase\XamarinFirebase.UWP\bin\x86\Debug\XamarinFirebase.UWP.exe">
       <PackagePath>entrypoint\XamarinFirebase.UWP.exe</PackagePath>
-      <Modified>2019-01-08T17:42:55.623</Modified>
+      <Modified>2019-01-25T17:04:57.949</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\susai\.nuget\packages\firebasedatabase.net\3.3.3\lib\netstandard1.1\Firebase.dll">
       <PackagePath>Firebase.dll</PackagePath>
       <Modified>2018-03-09T19:10:22.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\susai\.nuget\packages\firebasestorage.net\1.0.3\lib\netstandard1.1\Firebase.Storage.dll">
+      <PackagePath>Firebase.Storage.dll</PackagePath>
+      <Modified>2018-11-26T16:19:32.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\susai\.nuget\packages\newtonsoft.json\9.0.1\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
       <Modified>2016-06-13T17:36:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\susai\.nuget\packages\plugin.permissions\3.0.0.12\lib\uap10.0.10240\Plugin.Permissions.dll">
+      <PackagePath>Plugin.Permissions.dll</PackagePath>
+      <Modified>2018-05-15T20:08:36.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\susai\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.1.9\runtimes\win10-x86\nativeassets\uap10.0.15138\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
@@ -726,6 +734,10 @@
       <PackagePath>System.Reactive.WindowsRuntime.dll</PackagePath>
       <Modified>2016-11-21T08:33:18.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\susai\.nuget\packages\xam.plugin.media\4.0.1.5\lib\uap10.0.10240\Plugin.Media.dll">
+      <PackagePath>Plugin.Media.dll</PackagePath>
+      <Modified>2018-07-23T15:25:22.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\susai\.nuget\packages\xamarin.forms\3.4.0.1008975\lib\uap10.0\Xamarin.Forms.Core.dll">
       <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
       <Modified>2018-11-13T14:45:30.000</Modified>
@@ -744,7 +756,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\susai\Desktop\VisualStudio Source\XamarinFirebase\XamarinFirebase\XamarinFirebase\bin\Debug\netstandard2.0\XamarinFirebase.dll">
       <PackagePath>XamarinFirebase.dll</PackagePath>
-      <Modified>2019-01-08T17:42:47.248</Modified>
+      <Modified>2019-01-25T17:04:44.667</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.17763.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
@@ -895,11 +907,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\susai\Desktop\VisualStudio Source\XamarinFirebase\XamarinFirebase\XamarinFirebase.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-01-08T17:42:55.230</Modified>
+      <Modified>2019-01-25T17:04:57.531</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\susai\Desktop\VisualStudio Source\XamarinFirebase\XamarinFirebase\XamarinFirebase.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-01-08T17:42:55.231</Modified>
+      <Modified>2019-01-25T17:04:57.532</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17763.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -911,11 +923,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\susai\Desktop\VisualStudio Source\XamarinFirebase\XamarinFirebase\XamarinFirebase.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-01-07T12:37:16.063</Modified>
+      <Modified>2019-01-23T15:02:11.154</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\susai\Desktop\VisualStudio Source\XamarinFirebase\XamarinFirebase\XamarinFirebase.UWP\bin\x86\Debug\Core\XamarinFirebase.UWP.exe">
       <PackagePath>XamarinFirebase.UWP.exe</PackagePath>
-      <Modified>2019-01-08T17:42:57.480</Modified>
+      <Modified>2019-01-25T17:05:02.008</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

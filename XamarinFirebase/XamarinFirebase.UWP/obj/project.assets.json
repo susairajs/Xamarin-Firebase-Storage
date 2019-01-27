@@ -16,6 +16,19 @@
           "lib/netstandard1.1/Firebase.dll": {}
         }
       },
+      "FirebaseStorage.net/1.0.3": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "Newtonsoft.Json": "9.0.1"
+        },
+        "compile": {
+          "lib/netstandard1.1/Firebase.Storage.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/Firebase.Storage.dll": {}
+        }
+      },
       "Microsoft.Net.Native.Compiler/2.1.8": {
         "type": "package",
         "dependencies": {
@@ -243,6 +256,18 @@
         },
         "runtime": {
           "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Plugin.Permissions/3.0.0.12": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3"
+        },
+        "compile": {
+          "lib/uap10.0.10240/Plugin.Permissions.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.10240/Plugin.Permissions.dll": {}
         }
       },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.1.8": {
@@ -801,6 +826,19 @@
           "lib/win8/_._": {}
         }
       },
+      "Xam.Plugin.Media/4.0.1.5": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3",
+          "Plugin.Permissions": "3.0.0.12"
+        },
+        "compile": {
+          "lib/uap10.0.10240/Plugin.Media.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.10240/Plugin.Media.dll": {}
+        }
+      },
       "Xamarin.Forms/3.4.0.1008975": {
         "type": "package",
         "dependencies": {
@@ -829,6 +867,8 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "FirebaseDatabase.net": "3.3.3",
+          "FirebaseStorage.net": "1.0.3",
+          "Xam.Plugin.Media": "4.0.1.5",
           "Xamarin.Forms": "3.4.0.1008975"
         },
         "compile": {
@@ -852,6 +892,19 @@
         },
         "runtime": {
           "lib/netstandard1.1/Firebase.dll": {}
+        }
+      },
+      "FirebaseStorage.net/1.0.3": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "Newtonsoft.Json": "9.0.1"
+        },
+        "compile": {
+          "lib/netstandard1.1/Firebase.Storage.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/Firebase.Storage.dll": {}
         }
       },
       "Microsoft.Net.Native.Compiler/2.1.8": {
@@ -1082,6 +1135,18 @@
         },
         "runtime": {
           "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Plugin.Permissions/3.0.0.12": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3"
+        },
+        "compile": {
+          "lib/uap10.0.10240/Plugin.Permissions.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.10240/Plugin.Permissions.dll": {}
         }
       },
       "runtime.any.System.Collections/4.0.11": {
@@ -1915,6 +1980,19 @@
           "lib/win8/_._": {}
         }
       },
+      "Xam.Plugin.Media/4.0.1.5": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3",
+          "Plugin.Permissions": "3.0.0.12"
+        },
+        "compile": {
+          "lib/uap10.0.10240/Plugin.Media.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.10240/Plugin.Media.dll": {}
+        }
+      },
       "Xamarin.Forms/3.4.0.1008975": {
         "type": "package",
         "dependencies": {
@@ -1943,6 +2021,8 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "FirebaseDatabase.net": "3.3.3",
+          "FirebaseStorage.net": "1.0.3",
+          "Xam.Plugin.Media": "4.0.1.5",
           "Xamarin.Forms": "3.4.0.1008975"
         },
         "compile": {
@@ -1966,6 +2046,19 @@
         },
         "runtime": {
           "lib/netstandard1.1/Firebase.dll": {}
+        }
+      },
+      "FirebaseStorage.net/1.0.3": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "Newtonsoft.Json": "9.0.1"
+        },
+        "compile": {
+          "lib/netstandard1.1/Firebase.Storage.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/Firebase.Storage.dll": {}
         }
       },
       "Microsoft.Net.Native.Compiler/2.1.8": {
@@ -2196,6 +2289,18 @@
         },
         "runtime": {
           "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Plugin.Permissions/3.0.0.12": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3"
+        },
+        "compile": {
+          "lib/uap10.0.10240/Plugin.Permissions.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.10240/Plugin.Permissions.dll": {}
         }
       },
       "runtime.aot.System.Collections/4.0.10": {
@@ -3085,6 +3190,19 @@
           "lib/win8/_._": {}
         }
       },
+      "Xam.Plugin.Media/4.0.1.5": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3",
+          "Plugin.Permissions": "3.0.0.12"
+        },
+        "compile": {
+          "lib/uap10.0.10240/Plugin.Media.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.10240/Plugin.Media.dll": {}
+        }
+      },
       "Xamarin.Forms/3.4.0.1008975": {
         "type": "package",
         "dependencies": {
@@ -3113,6 +3231,8 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "FirebaseDatabase.net": "3.3.3",
+          "FirebaseStorage.net": "1.0.3",
+          "Xam.Plugin.Media": "4.0.1.5",
           "Xamarin.Forms": "3.4.0.1008975"
         },
         "compile": {
@@ -3136,6 +3256,19 @@
         },
         "runtime": {
           "lib/netstandard1.1/Firebase.dll": {}
+        }
+      },
+      "FirebaseStorage.net/1.0.3": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "Newtonsoft.Json": "9.0.1"
+        },
+        "compile": {
+          "lib/netstandard1.1/Firebase.Storage.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/Firebase.Storage.dll": {}
         }
       },
       "Microsoft.Net.Native.Compiler/2.1.8": {
@@ -3365,6 +3498,18 @@
         },
         "runtime": {
           "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Plugin.Permissions/3.0.0.12": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3"
+        },
+        "compile": {
+          "lib/uap10.0.10240/Plugin.Permissions.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.10240/Plugin.Permissions.dll": {}
         }
       },
       "runtime.any.System.Collections/4.0.11": {
@@ -4024,6 +4169,19 @@
           "lib/win8/_._": {}
         }
       },
+      "Xam.Plugin.Media/4.0.1.5": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3",
+          "Plugin.Permissions": "3.0.0.12"
+        },
+        "compile": {
+          "lib/uap10.0.10240/Plugin.Media.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.10240/Plugin.Media.dll": {}
+        }
+      },
       "Xamarin.Forms/3.4.0.1008975": {
         "type": "package",
         "dependencies": {
@@ -4052,6 +4210,8 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "FirebaseDatabase.net": "3.3.3",
+          "FirebaseStorage.net": "1.0.3",
+          "Xam.Plugin.Media": "4.0.1.5",
           "Xamarin.Forms": "3.4.0.1008975"
         },
         "compile": {
@@ -4075,6 +4235,19 @@
         },
         "runtime": {
           "lib/netstandard1.1/Firebase.dll": {}
+        }
+      },
+      "FirebaseStorage.net/1.0.3": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "Newtonsoft.Json": "9.0.1"
+        },
+        "compile": {
+          "lib/netstandard1.1/Firebase.Storage.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/Firebase.Storage.dll": {}
         }
       },
       "Microsoft.Net.Native.Compiler/2.1.8": {
@@ -4305,6 +4478,18 @@
         },
         "runtime": {
           "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Plugin.Permissions/3.0.0.12": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3"
+        },
+        "compile": {
+          "lib/uap10.0.10240/Plugin.Permissions.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.10240/Plugin.Permissions.dll": {}
         }
       },
       "runtime.any.System.Collections/4.0.11": {
@@ -5138,6 +5323,19 @@
           "lib/win8/_._": {}
         }
       },
+      "Xam.Plugin.Media/4.0.1.5": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3",
+          "Plugin.Permissions": "3.0.0.12"
+        },
+        "compile": {
+          "lib/uap10.0.10240/Plugin.Media.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.10240/Plugin.Media.dll": {}
+        }
+      },
       "Xamarin.Forms/3.4.0.1008975": {
         "type": "package",
         "dependencies": {
@@ -5166,6 +5364,8 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "FirebaseDatabase.net": "3.3.3",
+          "FirebaseStorage.net": "1.0.3",
+          "Xam.Plugin.Media": "4.0.1.5",
           "Xamarin.Forms": "3.4.0.1008975"
         },
         "compile": {
@@ -5189,6 +5389,19 @@
         },
         "runtime": {
           "lib/netstandard1.1/Firebase.dll": {}
+        }
+      },
+      "FirebaseStorage.net/1.0.3": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "Newtonsoft.Json": "9.0.1"
+        },
+        "compile": {
+          "lib/netstandard1.1/Firebase.Storage.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/Firebase.Storage.dll": {}
         }
       },
       "Microsoft.Net.Native.Compiler/2.1.8": {
@@ -5419,6 +5632,18 @@
         },
         "runtime": {
           "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Plugin.Permissions/3.0.0.12": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3"
+        },
+        "compile": {
+          "lib/uap10.0.10240/Plugin.Permissions.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.10240/Plugin.Permissions.dll": {}
         }
       },
       "runtime.aot.System.Collections/4.0.10": {
@@ -6308,6 +6533,19 @@
           "lib/win8/_._": {}
         }
       },
+      "Xam.Plugin.Media/4.0.1.5": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3",
+          "Plugin.Permissions": "3.0.0.12"
+        },
+        "compile": {
+          "lib/uap10.0.10240/Plugin.Media.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.10240/Plugin.Media.dll": {}
+        }
+      },
       "Xamarin.Forms/3.4.0.1008975": {
         "type": "package",
         "dependencies": {
@@ -6336,6 +6574,8 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "FirebaseDatabase.net": "3.3.3",
+          "FirebaseStorage.net": "1.0.3",
+          "Xam.Plugin.Media": "4.0.1.5",
           "Xamarin.Forms": "3.4.0.1008975"
         },
         "compile": {
@@ -6359,6 +6599,19 @@
         },
         "runtime": {
           "lib/netstandard1.1/Firebase.dll": {}
+        }
+      },
+      "FirebaseStorage.net/1.0.3": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "Newtonsoft.Json": "9.0.1"
+        },
+        "compile": {
+          "lib/netstandard1.1/Firebase.Storage.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/Firebase.Storage.dll": {}
         }
       },
       "Microsoft.Net.Native.Compiler/2.1.8": {
@@ -6589,6 +6842,18 @@
         },
         "runtime": {
           "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Plugin.Permissions/3.0.0.12": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3"
+        },
+        "compile": {
+          "lib/uap10.0.10240/Plugin.Permissions.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.10240/Plugin.Permissions.dll": {}
         }
       },
       "runtime.any.System.Collections/4.0.11": {
@@ -7422,6 +7687,19 @@
           "lib/win8/_._": {}
         }
       },
+      "Xam.Plugin.Media/4.0.1.5": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3",
+          "Plugin.Permissions": "3.0.0.12"
+        },
+        "compile": {
+          "lib/uap10.0.10240/Plugin.Media.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.10240/Plugin.Media.dll": {}
+        }
+      },
       "Xamarin.Forms/3.4.0.1008975": {
         "type": "package",
         "dependencies": {
@@ -7450,6 +7728,8 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "FirebaseDatabase.net": "3.3.3",
+          "FirebaseStorage.net": "1.0.3",
+          "Xam.Plugin.Media": "4.0.1.5",
           "Xamarin.Forms": "3.4.0.1008975"
         },
         "compile": {
@@ -7473,6 +7753,19 @@
         },
         "runtime": {
           "lib/netstandard1.1/Firebase.dll": {}
+        }
+      },
+      "FirebaseStorage.net/1.0.3": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "Newtonsoft.Json": "9.0.1"
+        },
+        "compile": {
+          "lib/netstandard1.1/Firebase.Storage.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/Firebase.Storage.dll": {}
         }
       },
       "Microsoft.Net.Native.Compiler/2.1.8": {
@@ -7703,6 +7996,18 @@
         },
         "runtime": {
           "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Plugin.Permissions/3.0.0.12": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3"
+        },
+        "compile": {
+          "lib/uap10.0.10240/Plugin.Permissions.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.10240/Plugin.Permissions.dll": {}
         }
       },
       "runtime.aot.System.Collections/4.0.10": {
@@ -8592,6 +8897,19 @@
           "lib/win8/_._": {}
         }
       },
+      "Xam.Plugin.Media/4.0.1.5": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3",
+          "Plugin.Permissions": "3.0.0.12"
+        },
+        "compile": {
+          "lib/uap10.0.10240/Plugin.Media.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.10240/Plugin.Media.dll": {}
+        }
+      },
       "Xamarin.Forms/3.4.0.1008975": {
         "type": "package",
         "dependencies": {
@@ -8620,6 +8938,8 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "FirebaseDatabase.net": "3.3.3",
+          "FirebaseStorage.net": "1.0.3",
+          "Xam.Plugin.Media": "4.0.1.5",
           "Xamarin.Forms": "3.4.0.1008975"
         },
         "compile": {
@@ -8642,6 +8962,18 @@
         "firebasedatabase.net.3.3.3.nupkg.sha512",
         "firebasedatabase.net.nuspec",
         "lib/netstandard1.1/Firebase.dll"
+      ]
+    },
+    "FirebaseStorage.net/1.0.3": {
+      "sha512": "U3hJCi4jvUTshGdCO2t/mukQduSYk4kLw8JwChchDqexLcFb+CL8G/DKzr2n8a1ay8RNvR2oJCBmX81hwUy3LQ==",
+      "type": "package",
+      "path": "firebasestorage.net/1.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "firebasestorage.net.1.0.3.nupkg.sha512",
+        "firebasestorage.net.nuspec",
+        "lib/netstandard1.1/Firebase.Storage.dll"
       ]
     },
     "Microsoft.Net.Native.Compiler/2.1.8": {
@@ -9190,6 +9522,29 @@
         "newtonsoft.json.9.0.1.nupkg.sha512",
         "newtonsoft.json.nuspec",
         "tools/install.ps1"
+      ]
+    },
+    "Plugin.Permissions/3.0.0.12": {
+      "sha512": "R8Rlzfci1byoPBGOiJfCMzu0HhhN6Q4Vq4YizlF41W946NEmoL/Mb8U5caP5t5KfSbdPQpzdQ9JfM8fxPG8pfw==",
+      "type": "package",
+      "path": "plugin.permissions/3.0.0.12",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid71/Plugin.Permissions.dll",
+        "lib/monoandroid71/Plugin.Permissions.xml",
+        "lib/netstandard1.0/Plugin.Permissions.dll",
+        "lib/netstandard1.0/Plugin.Permissions.xml",
+        "lib/netstandard2.0/Plugin.Permissions.dll",
+        "lib/netstandard2.0/Plugin.Permissions.xml",
+        "lib/uap10.0.10240/Plugin.Permissions.dll",
+        "lib/uap10.0.10240/Plugin.Permissions.pri",
+        "lib/uap10.0.10240/Plugin.Permissions.xml",
+        "lib/xamarinios10/Plugin.Permissions.dll",
+        "lib/xamarinios10/Plugin.Permissions.xml",
+        "plugin.permissions.3.0.0.12.nupkg.sha512",
+        "plugin.permissions.nuspec",
+        "readme.txt"
       ]
     },
     "runtime.any.System.Collections/4.0.11": {
@@ -14564,6 +14919,31 @@
         "ref/xamarinwatchos10/_._",
         "system.threading.tasks.4.0.11.nupkg.sha512",
         "system.threading.tasks.nuspec"
+      ]
+    },
+    "Xam.Plugin.Media/4.0.1.5": {
+      "sha512": "PxL0vcTXpS79l2KgtaJBShcPVMRK2HC5J08vG6hKTC7hk5+3RjgFrdX0N6Gd4oF8pxVxV2ia7rhYnjxRCMWZtw==",
+      "type": "package",
+      "path": "xam.plugin.media/4.0.1.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid71/Plugin.Media.dll",
+        "lib/monoandroid71/Plugin.Media.xml",
+        "lib/netstandard1.0/Plugin.Media.dll",
+        "lib/netstandard1.0/Plugin.Media.xml",
+        "lib/netstandard2.0/Plugin.Media.dll",
+        "lib/netstandard2.0/Plugin.Media.xml",
+        "lib/tizen40/Plugin.Media.dll",
+        "lib/tizen40/Plugin.Media.xml",
+        "lib/uap10.0.10240/Plugin.Media.dll",
+        "lib/uap10.0.10240/Plugin.Media.pri",
+        "lib/uap10.0.10240/Plugin.Media.xml",
+        "lib/xamarinios10/Plugin.Media.dll",
+        "lib/xamarinios10/Plugin.Media.xml",
+        "readme.txt",
+        "xam.plugin.media.4.0.1.5.nupkg.sha512",
+        "xam.plugin.media.nuspec"
       ]
     },
     "Xamarin.Forms/3.4.0.1008975": {

@@ -312,3 +312,8 @@ C:\Users\susai\Desktop\VisualStudio Source\XamarinFirebase\XamarinFirebase\Xamar
 C:\Users\susai\Desktop\VisualStudio Source\XamarinFirebase\XamarinFirebase\XamarinFirebase.UWP\obj\x86\Debug\Xamarin.Forms.Platform.UAP.pri.xml
 C:\Users\susai\Desktop\VisualStudio Source\XamarinFirebase\XamarinFirebase\XamarinFirebase.UWP\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\susai\Desktop\VisualStudio Source\XamarinFirebase\XamarinFirebase\XamarinFirebase.UWP\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636758354200000000.json
+C:\Users\susai\Desktop\VisualStudio Source\XamarinFirebase\XamarinFirebase\XamarinFirebase.UWP\bin\x86\Debug\Firebase.Storage.dll
+C:\Users\susai\Desktop\VisualStudio Source\XamarinFirebase\XamarinFirebase\XamarinFirebase.UWP\bin\x86\Debug\Plugin.Permissions.dll
+C:\Users\susai\Desktop\VisualStudio Source\XamarinFirebase\XamarinFirebase\XamarinFirebase.UWP\bin\x86\Debug\Plugin.Media.dll
+C:\Users\susai\Desktop\VisualStudio Source\XamarinFirebase\XamarinFirebase\XamarinFirebase.UWP\obj\x86\Debug\Plugin.Permissions.pri.xml
+C:\Users\susai\Desktop\VisualStudio Source\XamarinFirebase\XamarinFirebase\XamarinFirebase.UWP\obj\x86\Debug\Plugin.Media.pri.xml

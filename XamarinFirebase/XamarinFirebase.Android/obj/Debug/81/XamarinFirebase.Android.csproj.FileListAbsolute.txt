@@ -61,6 +61,7 @@ C:\Users\susai\Desktop\VisualStudio Source\XamarinFirebase\XamarinFirebase\Xamar
 C:\Users\susai\Desktop\VisualStudio Source\XamarinFirebase\XamarinFirebase\XamarinFirebase.Android\obj\Debug\81\res\drawable\defaultimage.png
 C:\Users\susai\Desktop\VisualStudio Source\XamarinFirebase\XamarinFirebase\XamarinFirebase.Android\obj\Debug\81\res\drawable\firebase.png
 C:\Users\susai\Desktop\VisualStudio Source\XamarinFirebase\XamarinFirebase\XamarinFirebase.Android\bin\Debug\Microsoft.CSharp.pdb
+C:\Users\susai\Desktop\VisualStudio Source\XamarinFirebase\XamarinFirebase\XamarinFirebase.Android\obj\Debug\81\res\xml\file_paths.xml
 C:\Users\susai\Desktop\VisualStudio Source\XamarinFirebase\XamarinFirebase\XamarinFirebase.Android\obj\Debug\81\linksrc\XamarinFirebase.Android.pdb
 C:\Users\susai\Desktop\VisualStudio Source\XamarinFirebase\XamarinFirebase\XamarinFirebase.Android\obj\Debug\81\linksrc\FormsViewGroup.pdb
 C:\Users\susai\Desktop\VisualStudio Source\XamarinFirebase\XamarinFirebase\XamarinFirebase.Android\obj\Debug\81\linksrc\Mono.Android.pdb
@@ -109,5 +110,7 @@ C:\Users\susai\Desktop\VisualStudio Source\XamarinFirebase\XamarinFirebase\Xamar
 C:\Users\susai\Desktop\VisualStudio Source\XamarinFirebase\XamarinFirebase\XamarinFirebase.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.pdb
 C:\Users\susai\Desktop\VisualStudio Source\XamarinFirebase\XamarinFirebase\XamarinFirebase.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
 C:\Users\susai\Desktop\VisualStudio Source\XamarinFirebase\XamarinFirebase\XamarinFirebase.Android\obj\Debug\81\android\assets\XamarinFirebase.Android.pdb
+C:\Users\susai\Desktop\VisualStudio Source\XamarinFirebase\XamarinFirebase\XamarinFirebase\bin\Debug\netstandard2.0\XamarinFirebase.dll
 C:\Users\susai\Desktop\VisualStudio Source\XamarinFirebase\XamarinFirebase\XamarinFirebase.Android\obj\Debug\81\linksrc\XamarinFirebase.Android.pdb
+C:\Users\susai\Desktop\VisualStudio Source\XamarinFirebase\XamarinFirebase\XamarinFirebase.Android\bin\Debug\XamarinFirebase.dll.mdb
 C:\Users\susai\Desktop\VisualStudio Source\XamarinFirebase\XamarinFirebase\XamarinFirebase.Android\obj\Debug\81\linksrc\XamarinFirebase.dll.mdb

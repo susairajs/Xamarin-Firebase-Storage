@@ -12,6 +12,8 @@
 
   <ItemGroup>
     <PackageReference Include="FirebaseDatabase.net" Version="3.3.3" />
+    <PackageReference Include="FirebaseStorage.net" Version="1.0.3" />
+    <PackageReference Include="Xam.Plugin.Media" Version="4.0.1.5" />
     <PackageReference Include="Xamarin.Forms" Version="3.4.0.1008975" />
   </ItemGroup>
 </Project>

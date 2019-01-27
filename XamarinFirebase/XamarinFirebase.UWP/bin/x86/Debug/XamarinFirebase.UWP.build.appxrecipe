@@ -31,8 +31,14 @@
     <AppxPackagedFile Include="C:\Users\susai\.nuget\packages\firebasedatabase.net\3.3.3\lib\netstandard1.1\Firebase.dll">
       <PackagePath>Firebase.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\susai\.nuget\packages\firebasestorage.net\1.0.3\lib\netstandard1.1\Firebase.Storage.dll">
+      <PackagePath>Firebase.Storage.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\susai\.nuget\packages\newtonsoft.json\9.0.1\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\susai\.nuget\packages\plugin.permissions\3.0.0.12\lib\uap10.0.10240\Plugin.Permissions.dll">
+      <PackagePath>Plugin.Permissions.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\susai\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.1.9\runtimes\win10-x86\nativeassets\uap10.0.15138\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
@@ -543,6 +549,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\susai\.nuget\packages\system.reactive.windowsruntime\3.1.1\lib\uap10.0\System.Reactive.WindowsRuntime.dll">
       <PackagePath>System.Reactive.WindowsRuntime.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\susai\.nuget\packages\xam.plugin.media\4.0.1.5\lib\uap10.0.10240\Plugin.Media.dll">
+      <PackagePath>Plugin.Media.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\susai\.nuget\packages\xamarin.forms\3.4.0.1008975\lib\uap10.0\Xamarin.Forms.Core.dll">
       <PackagePath>Xamarin.Forms.Core.dll</PackagePath>

@@ -1,10 +1,14 @@
 C:\Users\susai\Desktop\VisualStudio Source\XamarinFirebase\XamarinFirebase\XamarinFirebase.Android\obj\Debug\81\android\assets\XamarinFirebase.Android.dll
 C:\Users\susai\Desktop\VisualStudio Source\XamarinFirebase\XamarinFirebase\XamarinFirebase.Android\obj\Debug\81\android\assets\Firebase.dll
+C:\Users\susai\Desktop\VisualStudio Source\XamarinFirebase\XamarinFirebase\XamarinFirebase.Android\obj\Debug\81\android\assets\Firebase.Storage.dll
 C:\Users\susai\Desktop\VisualStudio Source\XamarinFirebase\XamarinFirebase\XamarinFirebase.Android\obj\Debug\81\android\assets\FormsViewGroup.dll
 C:\Users\susai\Desktop\VisualStudio Source\XamarinFirebase\XamarinFirebase\XamarinFirebase.Android\obj\Debug\81\android\assets\Java.Interop.dll
 C:\Users\susai\Desktop\VisualStudio Source\XamarinFirebase\XamarinFirebase\XamarinFirebase.Android\obj\Debug\81\android\assets\Mono.Android.dll
 C:\Users\susai\Desktop\VisualStudio Source\XamarinFirebase\XamarinFirebase\XamarinFirebase.Android\obj\Debug\81\android\assets\mscorlib.dll
 C:\Users\susai\Desktop\VisualStudio Source\XamarinFirebase\XamarinFirebase\XamarinFirebase.Android\obj\Debug\81\android\assets\Newtonsoft.Json.dll
+C:\Users\susai\Desktop\VisualStudio Source\XamarinFirebase\XamarinFirebase\XamarinFirebase.Android\obj\Debug\81\android\assets\Plugin.CurrentActivity.dll
+C:\Users\susai\Desktop\VisualStudio Source\XamarinFirebase\XamarinFirebase\XamarinFirebase.Android\obj\Debug\81\android\assets\Plugin.Media.dll
+C:\Users\susai\Desktop\VisualStudio Source\XamarinFirebase\XamarinFirebase\XamarinFirebase.Android\obj\Debug\81\android\assets\Plugin.Permissions.dll
 C:\Users\susai\Desktop\VisualStudio Source\XamarinFirebase\XamarinFirebase\XamarinFirebase.Android\obj\Debug\81\android\assets\System.Core.dll
 C:\Users\susai\Desktop\VisualStudio Source\XamarinFirebase\XamarinFirebase\XamarinFirebase.Android\obj\Debug\81\android\assets\System.dll
 C:\Users\susai\Desktop\VisualStudio Source\XamarinFirebase\XamarinFirebase\XamarinFirebase.Android\obj\Debug\81\android\assets\System.Reactive.Core.dll

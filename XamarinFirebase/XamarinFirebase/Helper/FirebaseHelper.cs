@@ -12,7 +12,7 @@ namespace XamarinFirebase.Helper
     
     public class FirebaseHelper
     {
-        FirebaseClient firebase = new FirebaseClient("https://xamarinfirebase-909d2.firebaseio.com/");
+        FirebaseClient firebase = new FirebaseClient("https://xamarinfirebase-*****.firebaseio.com/");
 
         public async Task<List<Person>> GetAllPersons()
         {

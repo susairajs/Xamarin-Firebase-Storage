@@ -9,25 +9,19 @@
             <StackLayout HorizontalOptions="Center" VerticalOptions="Start">
                 <Image x:Name="imgBanner" Source="banner.png" ></Image>
                 <Image Margin="0,0,0,10" HeightRequest="100" Source="firebase.png" ></Image>
-                <Label Margin="0,0,0,10" Text="Firebase Realtime Database" FontAttributes="Bold" FontSize="Large" TextColor="Gray" HorizontalTextAlignment="Center" ></Label>
-                <Entry x:Name="txtId" Placeholder="ID"></Entry>
-                <Entry x:Name="txtName" Placeholder="Enter Name"></Entry>
+                <Label Margin="0,0,0,10" Text="Firebase Storage" FontAttributes="Bold" FontSize="Large" TextColor="Gray" HorizontalTextAlignment="Center" ></Label>
+                <Image x:Name="imgChoosed" HeightRequest="150"></Image>
+                <Entry x:Name="txtFileName" Placeholder="Enter FileName"></Entry>
                 <StackLayout  HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
-                    <Button x:Name="btnAdd" WidthRequest="200" Text="Add" Clicked="BtnAdd_Clicked"/>
-                    <Button x:Name="btnRetrive" WidthRequest="200" Text="Retrive" Clicked="BtnRetrive_Clicked"/>
+                    <Button x:Name="btnPick" WidthRequest="200" Text="Pick" Clicked="BtnPick_Clicked"/>
+                    <Button x:Name="btnUpload" WidthRequest="200" Text="Upload" Clicked="BtnUpload_Clicked" />
                 </StackLayout>
                 <StackLayout HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
-                    <Button x:Name="btnUpdate" WidthRequest="200" Text="Update" Clicked="BtnUpdate_Clicked" />
+                    <Button x:Name="btnDownload" WidthRequest="200" Text="Download" Clicked="BtnDownload_Clicked" />
                     <Button x:Name="btnDelete" WidthRequest="200" Text="Delete" Clicked="BtnDelete_Clicked" />
                 </StackLayout>
+                <Label x:Name="lblPath"></Label>
                 
-                <ListView x:Name="lstPersons">
-                    <ListView.ItemTemplate>
-                        <DataTemplate>
-                            <TextCell Text="{Binding Name}"></TextCell>
-                        </DataTemplate>
-                    </ListView.ItemTemplate>
-                </ListView>
             </StackLayout>
         </StackLayout>
     </StackLayout>

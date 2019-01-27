@@ -4,5 +4,6 @@
     <SelectedDevice>xamarin_android</SelectedDevice>
     <DefaultDevice>xamarin_android</DefaultDevice>
     <AndroidDesignerPreferredTheme>Theme.DeviceDefault.NoActionBar.Fullscreen</AndroidDesignerPreferredTheme>
+    <ProjectView>ShowAllFiles</ProjectView>
   </PropertyGroup>
 </Project>

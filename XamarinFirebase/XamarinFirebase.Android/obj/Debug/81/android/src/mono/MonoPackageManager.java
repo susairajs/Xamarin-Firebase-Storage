@@ -108,8 +108,12 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "XamarinFirebase.Android.dll" comes first in this list. */
 		"XamarinFirebase.Android.dll",
 		"Firebase.dll",
+		"Firebase.Storage.dll",
 		"FormsViewGroup.dll",
 		"Newtonsoft.Json.dll",
+		"Plugin.CurrentActivity.dll",
+		"Plugin.Media.dll",
+		"Plugin.Permissions.dll",
 		"System.Reactive.Core.dll",
 		"System.Reactive.Interfaces.dll",
 		"System.Reactive.Linq.dll",

@@ -1,6 +1,10 @@
 Firebase
+Firebase.Storage
 FormsViewGroup
 Newtonsoft.Json
+Plugin.CurrentActivity
+Plugin.Media
+Plugin.Permissions
 System.Reactive.Core
 System.Reactive.Interfaces
 System.Reactive.Linq

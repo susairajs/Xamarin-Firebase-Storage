@@ -8,12 +8,17 @@ using Firebase.Database;
 using Firebase.Database.Query;
 using XamarinFirebase.Helper;
 using XamarinFirebase.Model;
+using Plugin.Media;
+using Plugin.Media.Abstractions;
+using System.Diagnostics;
+using System.IO;
 
 namespace XamarinFirebase
 {
     public partial class MainPage : ContentPage
     {
-        FirebaseHelper firebaseHelper = new FirebaseHelper();
+        FirebaseStorageHelper firebaseStorageHelper = new FirebaseStorageHelper();
+        MediaFile file;
         public MainPage()
         {
             InitializeComponent();
@@ -23,53 +28,55 @@ namespace XamarinFirebase
         {
 
             base.OnAppearing();
-            var allPersons = await firebaseHelper.GetAllPersons();
-            lstPersons.ItemsSource = allPersons;
+            
         }
+        
 
-        private async void BtnAdd_Clicked(object sender, EventArgs e)
+        private async void BtnPick_Clicked(object sender, EventArgs e)
         {
-            await firebaseHelper.AddPerson(Convert.ToInt32(txtId.Text), txtName.Text);
-            txtId.Text = string.Empty;
-            txtName.Text = string.Empty;
-            await DisplayAlert("Success", "Person Added Successfully", "OK");
-            var allPersons = await firebaseHelper.GetAllPersons();
-            lstPersons.ItemsSource = allPersons;
-        }
-
-        private async void BtnRetrive_Clicked(object sender, EventArgs e)
-        {
-            var person = await firebaseHelper.GetPerson(Convert.ToInt32(txtId.Text));
-            if(person!=null)
+            await CrossMedia.Current.Initialize();
+            try
             {
-                txtId.Text = person.PersonId.ToString();
-                txtName.Text = person.Name;
-                await DisplayAlert("Success", "Person Retrive Successfully", "OK");
-                
+                file = await Plugin.Media.CrossMedia.Current.PickPhotoAsync(new Plugin.Media.Abstractions.PickMediaOptions
+                {
+                    PhotoSize = Plugin.Media.Abstractions.PhotoSize.Medium
+                });
+                if (file == null)
+                    return;
+                imgChoosed.Source = ImageSource.FromStream(() =>
+                {
+                    var imageStram = file.GetStream();
+                    return imageStram;
+                });
             }
-            else
+            catch (Exception ex)
             {
-                await DisplayAlert("Success", "No Person Available", "OK");
+                Debug.WriteLine(ex.Message);
+            }
+        }
+
+        private async void BtnUpload_Clicked(object sender, EventArgs e)
+        {
+            await firebaseStorageHelper.UploadFile(file.GetStream(), Path.GetFileName(file.Path));
+        }
+        private async void BtnDelete_Clicked(object sender, EventArgs e)
+        {
+            await firebaseStorageHelper.DeleteFile(txtFileName.Text);
+            lblPath.Text = string.Empty;
+            await DisplayAlert("Success", "Deleted", "OK");
+        }
+
+        private async void BtnDownload_Clicked(object sender, EventArgs e)
+        {
+            string path = await firebaseStorageHelper.GetFile(txtFileName.Text);
+            if (path != null)
+            {
+                lblPath.Text = path;
+                await DisplayAlert("Success", path, "OK");
             }
             
         }
 
-        private async void BtnUpdate_Clicked(object sender, EventArgs e)
-        {
-            await firebaseHelper.UpdatePerson(Convert.ToInt32(txtId.Text), txtName.Text);
-            txtId.Text = string.Empty;
-            txtName.Text = string.Empty;
-            await DisplayAlert("Success", "Person Updated Successfully", "OK");
-            var allPersons = await firebaseHelper.GetAllPersons();
-            lstPersons.ItemsSource = allPersons;
-        }
-
-        private async void BtnDelete_Clicked(object sender, EventArgs e)
-        {
-            await firebaseHelper.DeletePerson(Convert.ToInt32(txtId.Text));
-            await DisplayAlert("Success", "Person Deleted Successfully", "OK");
-            var allPersons = await firebaseHelper.GetAllPersons();
-            lstPersons.ItemsSource = allPersons;
-        }
+        
     }
 }
