@@ -11,7 +11,8 @@ namespace XamarinFirebase.Helper
     public class FirebaseStorageHelper
     {
         FirebaseStorage firebaseStorage = new FirebaseStorage("xamarinfirebase-****.appspot.com");
-
+        
+        //Upload file to Firebase
         public async Task<string> UploadFile(Stream fileStream,string fileName)
         {
             var imageUrl = await firebaseStorage
@@ -21,20 +22,22 @@ namespace XamarinFirebase.Helper
             return imageUrl;
         }
 
+        //Get file from Firebase
         public async Task<string> GetFile(string fileName)
         {
             return await firebaseStorage
                 .Child("XamarinMonkeys")
                 .Child(fileName)
-                .GetDownloadUrlAsync();
+                .GetDownloadUrlAsync();e 
         }
+        
+        //Delete file in firebase
         public async Task DeleteFile(string fileName)
         {
            await firebaseStorage
                 .Child("XamarinMonkeys")
                 .Child(fileName)
                 .DeleteAsync();
-            
         }
     }
 }
